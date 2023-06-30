@@ -1,0 +1,23 @@
+/* PersonajeCard.css 
+
+.personaje-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.personaje-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.personaje-card h3 {
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+*/

@@ -1,0 +1,48 @@
+.detalle-ubicacion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgb(55, 56, 56);
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-image: url(../../src/assets/public/planetas.jpg);
+  opacity: 0.9;
+  background-size: cover;
+
+}
+
+.ubicacion-name,
+.ubicacion-type,
+.ubicacion-dimension,
+.ubicacion-residentes {
+  color:black;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.ubicacion-residentes ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  color:rgb(43, 42, 42);
+}
+
+.ubicacion-back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ubicacion-back-button:hover {
+  background-color: #999;
+  color: #fff;
+}
+

@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/public/fondo1.png);
+    background-size:40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 30vh; /* Ajusta la altura del Navbar al 100% del viewport */
+  }
+    @media screen and (max-width: 800px) {
+      .navbar {
+        display: inline-block;
+      }
+      
+    } 
+  
+  .navbar-logo img {
+    width: 300px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+  }
+  
+  .navbar-links li {
+    margin-left: 10px;
+  }
+  
+  .navbar-links li a {
+    color: #ffffff; /* Color del texto de los links */
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .navbar-links li a:hover {
+    text-decoration: underline;
+  }
+  
